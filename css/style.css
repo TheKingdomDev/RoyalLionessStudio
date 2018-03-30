@@ -1,1 +1,22 @@
-/* Your custom styles */
+.view {
+  background: url("../img/royallionessimages/header.jpeg")no-repeat center center;
+  background-size: cover;
+}
+.btn {
+  padding: .34rem 1.14rem;
+  border-radius: 18px;
+}
+  
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: rgb(158, 59, 216);
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: rgb(158, 59, 216);
+  }
+}
